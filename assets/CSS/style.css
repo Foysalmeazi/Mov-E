@@ -1,0 +1,48 @@
+.movie-search .form-group input
+{
+    width: 35rem;
+}
+#movie-searchable
+{
+    margin-top: 30px;
+}
+
+.divs
+{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+.movie h2{
+    padding:0 30px;
+}
+.divs img{
+    width: 350px;
+    height: 300px;
+    transition: 250ms all ease-in;
+}
+.divs img:hover{
+    margin:0px 20px;
+    transform: scale(1.2);
+    cursor: pointer;
+ 
+}
+.content
+{
+    border:1px solid green;
+    margin-top: 50px;
+    display: none;
+}
+.content div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+.content-display
+{
+    display: block;
+}
